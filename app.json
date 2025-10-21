@@ -1,12 +1,10 @@
 {
   "expo": {
-    "name": "kalkulator",
-    "slug": "snack-63ecea16-b9ba-442b-8e3f-4ef722ac2289",
+    "name": "Kalkulator",
+    "slug": "kalkulator",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -20,10 +18,13 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "package": "com.Yehuda1998.kalkulator",
+      "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "sdkVersion": "54.0.0",
+    "platforms": ["android"]
   }
 }
