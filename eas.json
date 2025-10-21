@@ -1,18 +1,16 @@
 {
+  "cli": {
+    "version": ">= 9.0.0"
+  },
   "build": {
-    "preview": {
-      "distribution": "internal",
+    "production": {
+      "node": "20.11.1",
+      "env": {
+        "EXPO_NO_DOCTOR": "1"
+      },
       "android": {
         "buildType": "apk"
       }
-    },
-    "production": {
-      "android": {
-        "buildType": "app-bundle"
-      }
     }
-  },
-  "cli": {
-    "version": ">= 3.16.0"
   }
 }
