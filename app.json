@@ -1,36 +1,27 @@
 {
   "expo": {
-    "name": "Kalkulator",
+    "name": "Kalkulatorapp",
     "slug": "kalkulatorapp",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "ios": {
-      "supportsTablet": true
-    },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.yehuda1998.kalkulator",
-      "versionCode": 1
-    },
-    "web": {
-      "favicon": "./assets/favicon.png"
+      "package": "com.yehuda1998.kalkulatorapp"
     },
     "extra": {
       "eas": {
-        "projectId": "6e65a8f2-cb27-4be4-809e-17fea3739164"
+        "projectId": "a3e62b6b-2c5f-44d9-a0ee-f6dc7b5c965d"
       }
-    },
-    "sdkVersion": "54.0.0",
-    "platforms": ["ios", "android"]
+    }
   }
 }
