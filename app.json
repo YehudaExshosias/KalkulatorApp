@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
+    "newArchEnabled": true,
     "splash": {
       "image": "./assets/splash-icon.png",
       "resizeMode": "contain",
@@ -18,13 +19,18 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "package": "com.Yehuda1998.kalkulator",
+      "package": "com.yehuda1998.kalkulator",
       "versionCode": 1
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
+    "extra": {
+      "eas": {
+        "projectId": "6e65a8f2-cb27-4be4-809e-17fea3739164"
+      }
+    },
     "sdkVersion": "54.0.0",
-    "platforms": ["android"]
+    "platforms": ["ios", "android"]
   }
 }
